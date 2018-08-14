@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EntryActivity">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:padding="12dp"
+        android:orientation="vertical">
+
+        <!-- Name field -->
+        <EditText
+            android:id="@+id/edit_product_name"
+            android:hint="Product Name"
+            android:inputType="textCapWords"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+
+        <!-- Breed field -->
+        <EditText
+            android:id="@+id/edit_price"
+            android:hint="Price"
+            android:inputType="numberDecimal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+
+        <!-- Breed field -->
+        <EditText
+            android:id="@+id/edit_quantity"
+            android:hint="Quantity"
+            android:inputType="number"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+
+        <!-- Breed field -->
+        <EditText
+            android:id="@+id/edit_supplier_name"
+            android:hint="Supplier Name"
+            android:inputType="textCapWords"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+
+        <!-- Breed field -->
+        <EditText
+            android:id="@+id/edit_supplier_number"
+            android:hint="Supplier Number"
+            android:inputType="number"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
